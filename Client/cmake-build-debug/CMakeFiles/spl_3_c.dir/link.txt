@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/spl_3_c.dir/src/main.cpp.o CMakeFiles/spl_3_c.dir/src/Client.cpp.o -o spl_3_c 
