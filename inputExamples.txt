@@ -1,0 +1,26 @@
+In order to run the client:
+bin/echoExample 127.0.0.1 7777
+
+and for the server:
+java -Dexec.mainClass="bgu.spl.net.impl.BGSServer.ReactorMain" -Dexec.args = "7777 5"
+
+
+Example messages:
+REGISTER rick 1234 12/12/1212
+LOGIN rick 1234 1
+LOGOUT
+FOLLOW 1 rick
+POST rick is a good friend
+PM rick you are a good friend
+LOGSTAT
+STAT rick|morty|squanchy
+BLOCK rick
+
+Filtered words are kept in server/src/main/java/bgu/spl/net/objects/DataBase: wordToFilter
+As of right now they are:
+war
+Trump
+Assignment2
+
+
+submited by Ishai Picus and Itay Geinkin
